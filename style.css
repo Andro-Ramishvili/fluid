@@ -1,0 +1,90 @@
+.image {
+    float:right;
+    width: 500px;
+}
+
+.text {
+    float: left;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+}
+
+.text1, .text2 {
+    display: inline-block;
+}
+
+.divider {
+    display: inline-block;
+    height: 15px;
+    width: 2px;
+    background-color: blue;
+    margin: 0 10px;
+}
+
+.txt2::before {
+    content: '\007C';
+    display: inline-block;
+    background-color: black;
+    margin: 0 10px;;
+}
+
+.txt1::after {
+    content: '';
+    width: 2px;
+    height: 20px;
+    display: inline-block;
+    background-color: aqua;
+    margin: 0 10px;
+}
+
+.txt1, .txt2 {
+    display: inline-block;
+}
+
+.left-wrapper {
+    float: left;
+    background-color: greenyellow;
+    width: 550px;
+}
+
+.right-wrapper {
+    float: right;
+    background-color: aquamarine;
+    width: 550px;
+}
+
+.img1 {
+    float: left;
+    width: 250px;
+}
+
+.img2 {
+    float: right;
+    width: 250px;
+}
+.box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.note1, .note2 {
+    width: 250px;
+    display: inline-block;
+}
+
+.box::after {
+    content: '';
+    clear: both;
+    display: block;
+}
